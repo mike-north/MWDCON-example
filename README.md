@@ -35,6 +35,7 @@ Once this command completes, the XCode project in the `./cordova/platforms/ios` 
 ![XCode Run](http://i61.tinypic.com/23u4ryb.jpg)
 
 And the mobile app will launch in the iOS simulator device of your choice
+
 ![Mobile App](http://i61.tinypic.com/330r2av.png)
 
 ## Further Reading / Useful Links
