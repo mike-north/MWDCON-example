@@ -1,3 +1,6 @@
+
+<img src="http://i60.tinypic.com/9abmvc.png" align="right" height=400 />
+
 # Write Once, Run Everywhere
 
 This example illustrates how the Ember.js ecosystem makes it easy to build an app that can run on the web, as a standalone desktop app, or as a mobile app distributable in the app store from a single codebase.
