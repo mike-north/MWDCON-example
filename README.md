@@ -29,7 +29,8 @@ The desktop app will launch automatically once the build process completes
 ```
 ember cordova:build
 
-``
+```
+
 Once this command completes, the XCode project in the `./cordova/platforms/ios` folder will have been updated with the latest app code. Open this project in XCode and run it by clicking the "Run" button
 
 ![XCode Run](http://i61.tinypic.com/23u4ryb.jpg)
