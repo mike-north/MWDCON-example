@@ -1,47 +1,41 @@
-# Wore
+# Write Once, Run Everywhere
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This example illustrates how the Ember.js ecosystem makes it easy to build an app that can run on the web, as a standalone desktop app, or as a mobile app distributable in the app store from a single codebase.
 
-## Prerequisites
+To learn more about how powerful this is, and the ways you can work with this kind of setup to cheaply and easily build a cross-platform app, [check out my talk at Mobile+Web Devcon](http://mobilewebdevconference.com/san-francisco-july-2015/agenda/day-three/145pm1.html) in San Francisco, July 14-16 2015. 
 
-You will need the following things properly installed on your computer.
+## Setup
+```
+# After cloning this project
+npm install; bower install
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+```
 
-## Installation
+## Web
+```
+ember s
+```
+Then visit http://localhost 4200
+![Web App](http://i60.tinypic.com/32zm9f8.png)
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+## Desktop App
+```
+ember nw
+```
+The desktop app will launch automatically once the build process completes
+![Desktop App](http://i58.tinypic.com/o6mzyw.png)
 
-## Running / Development
+## Mobile App (iOS)
+```
+ember cordova:build
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+``
+Once this command completes, the XCode project in the `./cordova/platforms/ios` folder will have been updated with the latest app code. Open this project in XCode and run it by clicking the "Run" button
 
-### Code Generators
+![XCode Run](http://i61.tinypic.com/23u4ryb.jpg)
 
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
+And the mobile app will launch in the iOS simulator device of your choice
+![Mobile App](http://i61.tinypic.com/330r2av.png)
 
 ## Further Reading / Useful Links
 
