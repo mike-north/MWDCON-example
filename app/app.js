@@ -15,4 +15,8 @@ App = Ember.Application.extend({
 
 loadInitializers(App, config.modulePrefix);
 
+window.shouldRotateToOrientation = function() {
+ return true;
+};
+
 export default App;

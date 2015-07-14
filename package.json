@@ -48,7 +48,7 @@
   "window": {
     "title": "Write once, run everywhere",
     "toolbar": false,
-    "min_width": 400,
+    "min_width": 601,
     "min_height": 200,
     "width": 960,
     "height": 600

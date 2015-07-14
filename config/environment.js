@@ -18,10 +18,17 @@ module.exports = function(environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
-
+    contentSecurityPolicy: {
+      'style-src': "'self' https://fonts.googleapis.com",
+      'font-src': "'self' https://fonts.gstatic.com"
+    },
     cordova: {
       rebuildOnChange: false,
-      emulate: false
+      emulate: false,
+      liveReload: {
+        enabled: true,
+        platform: 'ios'
+      }
     }
   };
 
