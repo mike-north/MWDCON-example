@@ -3,6 +3,8 @@
 
 # Write Once, Run Everywhere
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/MWDCON-example.svg)](https://greenkeeper.io/)
+
 This example illustrates how the Ember.js ecosystem makes it easy to build an app that can run on the web, as a standalone desktop app, or as a mobile app distributable in the app store from a single codebase.
 
 To learn more about how powerful this is, and the ways you can work with this kind of setup to cheaply and easily build a cross-platform app, [check out my talk at Mobile+Web Devcon](http://mobilewebdevconference.com/san-francisco-july-2015/agenda/day-three/145pm1.html) in San Francisco, July 14-16 2015. 
